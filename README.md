@@ -25,9 +25,9 @@ Before running the script, ensure you have the following installed:
 
  **Project Structure**
         
-        ├── reconcile.py          # The main script
-        ├── README.md             # Project documentation
-        └── [Output Files]        # YYYY-MM-DD_receipt_reconciliation.csv
+        ├── receipt_reconciliation.py     # The main script
+        ├── README.md                     # Project documentation
+        └── [Output Files]                # YYYY-MM-DD_receipt_reconciliation.csv
 
 **---Configuration---**
 Before running the script, update the following variables in reconcile.py to match your local environment:
