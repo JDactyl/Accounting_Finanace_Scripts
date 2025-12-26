@@ -19,13 +19,13 @@ By leveraging Regular Expressions (Regex) and Fuzzy Logic, the script identifies
 ---
 ## 🚀 Features
 
-**Dual-Mode Toggle:** Banks and credit card companies view your financial data differently and as such, they prepare it for customers to view in different ways.  This often means User-input driven logic to handle sign-reversal for Credit Card vs. Bank statements.  
+**Dual-Mode Toggle:** Banks and credit card companies view your financial data differently and as such, they prepare it for customers to view in different ways. This often means that how each entity treats your purchases and payments differs depending on what they consider an asset or liability. User-input driven logic is used to handle sign-reversal for Credit Card vs. Bank statements so that a standard end-product is produced and easily readable.  
 
-**Smart Column Detection:** Automatically identifies date and amount columns using case-insensitive keyword mapping.  
+**Smart Column Detection:** Currently, there is no agreed upon standard for a transaction history customer csv file that the banking and credit card industries have moved toward. As such, each busines, from national to regional banks, and credit card companies have header fieldnames in different sequences and using synonyms of common financial terminology. This script automatically identifies date and amount columns using case-insensitive keyword mapping, allowing it to handle any number of entity csv files.  
 
-**PDF Intelligence:** Extracts and caches dollar amounts and dates from receipt directories to optimize lookup speeds.  
+**PDF Intelligence:** Pulling pdf text can become taxing when dealing with scalability issues, such as working through thousands of documents. This can lead to a time bottleneck where you end up waiting for the script to finish caching and realize you could have gone out to lunch.  And if something goes wrong?  There goes a day of troubleshooting. Since effciency is key, this script extracts and caches ***only*** dollar amounts and dates from receipt directories to optimize lookup speeds.  
 
-**Comprehensive Reporting:** Generates a timestamped reconciliation report flagging matches, partial matches, and missing documentation.  
+**Comprehensive Reporting:** A solid end-result can give you peace of mind or a good starting point to pursue loose ends.  The report that this generates is a timestamped reconciliation report that's flagging matches, partial matches, and missing documentation.  
 
 ---
 ## ⚙️ Configuration & Installation
