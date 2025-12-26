@@ -32,7 +32,7 @@ DATE_PATTERN = re.compile(r'(\d{1,4}[-/\.]\d{1,2}[-/\.]\d{1,4})|(\w+ \d{1,2},? \
 # building the pdf cache.  Providing an empty dictionary variable for the keywords pulled per pdf and a file directory from which the cache will be constructed
 pdf_cache = {}
 # --- Manual input to below variable required ---
-search_dir = Path(r'ADD INPUT CSV FILEPATH HERE')
+search_dir = Path(r'ADD INPUT SEARCH FILEPATH HERE')
 
 print("Building PDF cache - Extracting dates and amounts...")
 
@@ -69,7 +69,7 @@ print(f"Cache complete. Indexed {len(pdf_cache)} PDFs.")
 
 # the reconcilation logic of the script, used to match the opened csv keywords against what was pulled to create the cache
 # --- Manual input to below variable required ---
-csv_input_path = r'ADD INPUT FILEPATH HERE'
+csv_input_path = r'ADD INPUT CSV FILEPATH HERE'
 
 # output csv file name creation with yyyy-mm-dd format and output csv file creation
 today_date = date.today()
